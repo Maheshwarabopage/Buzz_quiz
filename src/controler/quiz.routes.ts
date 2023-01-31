@@ -1,7 +1,7 @@
 import * as express from "express";
 import * as mongodb from "mongodb";
 import { collections } from "../database";
- 
+ //ghgh
 export const quizRouter = express.Router();
 quizRouter.use(express.json());
  //hg
