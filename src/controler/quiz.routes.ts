@@ -4,7 +4,7 @@ import { collections } from "../database";
  
 export const quizRouter = express.Router();
 quizRouter.use(express.json());
- 
+ //hg
 quizRouter.get("/", async (_req, res) => {
    try {
        const employees = await collections.quizzes.find({}).toArray();
